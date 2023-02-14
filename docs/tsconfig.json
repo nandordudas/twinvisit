@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "@twinvisit/tsconfig/tsconfig.base.json",
+    "@twinvisit/tsconfig/tsconfig.strict.json",
+    "@twinvisit/tsconfig/tsconfig.strictest.json"
+  ],
+  "include": [
+    "./.vitepress/**/*.ts"
+  ]
+}

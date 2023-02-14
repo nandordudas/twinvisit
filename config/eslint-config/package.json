@@ -1,0 +1,24 @@
+{
+  "name": "@twinvisit/eslint-config",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ESLint config",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "require": "./src/index.cjs"
+    }
+  },
+  "main": "./src/index.cjs",
+  "files": [
+    "./src/index.cjs"
+  ],
+  "scripts": {
+    "lint:fix": "pnpm lint --fix",
+    "lint": "eslint --cache --config ./src/index.cjs ."
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^0.35.2",
+    "@types/eslint": "^8.21.0"
+  }
+}

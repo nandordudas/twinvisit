@@ -1,0 +1,37 @@
+{
+  "name": "twinvisit",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@7.27.0",
+  "author": {
+    "email": "nandor.dudas@gmail.com",
+    "name": "Nándor Dudás",
+    "url": "https://github.com/nandordudas"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.12.1",
+    "pnpm": ">=7.27.0"
+  },
+  "scripts": {
+    "lint": "turbo lint",
+    "prepare": "pnpm setup:husky",
+    "setup:husky": "husky install config/husky/src",
+    "test": "turbo test",
+    "typecheck": "turbo typecheck"
+  },
+  "devDependencies": {
+    "@twinvisit/commitlint-config": "workspace:*",
+    "@twinvisit/eslint-config": "workspace:*",
+    "@twinvisit/tsconfig": "workspace:*",
+    "eslint": "^8.34.0",
+    "turbo": "^1.7.4",
+    "vite": "^4.1.1",
+    "vitest": "^0.28.4",
+    "vue": "^3.2.47",
+    "vue-tsc": "^1.0.24"
+  },
+  "eslintConfig": {
+    "extends": "@twinvisit"
+  }
+}
