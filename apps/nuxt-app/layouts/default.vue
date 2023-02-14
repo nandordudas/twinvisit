@@ -12,7 +12,7 @@
           </li>
         </ul>
       </nav>
-      <div class="bg-(green-200 no-repeat center cover [url(https://firebasestorage.googleapis.com/v0/b/twinvisit---dev.appspot.com/o/pexels-ian-beckley-2528186.webp?alt=media&token=18ee1c28-9a5b-4fef-b53e-2f3eb07b3cc5)])">
+      <div class="bg-(green-200 no-repeat center cover [url(images/pexels-ian-beckley-2528186.webp)])">
         <section class="container mx-auto p-2 sm:p-4">
           <div class="w-full h-48 bg-gray-100/80 rounded" />
         </section>

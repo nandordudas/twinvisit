@@ -4,7 +4,7 @@ const route = useRoute()
 useHead({
   titleTemplate: `${route.meta.title} - Twinvisit`,
   meta: [
-    { name: 'color-scheme', content: 'light -dark' },
+    { name: 'color-scheme', content: 'light dark' },
   ],
   htmlAttrs: {
     lang: 'en-US',
