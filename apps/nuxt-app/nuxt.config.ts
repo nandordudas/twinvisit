@@ -1,16 +1,6 @@
 import transformerVariantGroup from '@unocss/transformer-variant-group'
 
 export default defineNuxtConfig({
-  app: {
-    head: {
-      meta: [
-        { name: 'color-scheme', content: 'light' },
-      ],
-      htmlAttrs: {
-        lang: 'en-US',
-      },
-    },
-  },
   typescript: {
     shim: false,
   },
@@ -18,12 +8,29 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
   ],
   ssr: false,
+  nitro: {
+    preset: 'vercel',
+  },
   unocss: {
-    icons: true,
+    icons: {
+      extraProperties: {
+        'display': 'inline-block',
+        'vertical-align': 'middle',
+      },
+      scale: 1.2,
+      warn: true,
+    },
     preflight: true,
     components: false,
     transformers: [
       transformerVariantGroup(),
     ],
+    webFonts: {
+      fonts: {
+        sans: 'DM Sans',
+        serif: 'DM Serif Display',
+        mono: 'DM Mono',
+      },
+    },
   },
 })

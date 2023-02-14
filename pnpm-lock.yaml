@@ -26,9 +26,11 @@ importers:
 
   apps/nuxt-app:
     specifiers:
+      '@iconify-json/carbon': ^1.1.15
       '@unocss/nuxt': ^0.49.4
       nuxt: ^3.2.0
     devDependencies:
+      '@iconify-json/carbon': 1.1.15
       '@unocss/nuxt': 0.49.4_vite@4.1.1+webpack@5.75.0
       nuxt: 3.2.0
 
@@ -1256,6 +1258,12 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+
+  /@iconify-json/carbon/1.1.15:
+    resolution: {integrity: sha512-O1JtNFRIFVCJwS0YpU9XmWmZIvZzvGBi+CL7dI2ofAU7b5XV6PNH2IVnwEGKCCxEyAPaok23lR5qpgC7AWbgkQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
 
   /@iconify/types/2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
