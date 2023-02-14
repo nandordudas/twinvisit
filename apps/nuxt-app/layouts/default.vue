@@ -12,7 +12,12 @@
           </li>
         </ul>
       </nav>
-      <div class="bg-(green-200 no-repeat center cover [url(images/pexels-ian-beckley-2528186.webp)])">
+      <div
+        class="
+          bg-(green-200 no-repeat center cover)
+          bg-[url(https://twinvisit-nuxt-app.vercel.app/images/pexels-ian-beckley-2528186.webp)]
+        "
+      >
         <section class="container mx-auto p-2 sm:p-4">
           <div class="w-full h-48 bg-gray-100/80 rounded" />
         </section>
