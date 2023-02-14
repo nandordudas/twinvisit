@@ -1,6 +1,6 @@
 <template>
   <section class="flex flex-col sm:(flex-row flex-wrap) gap-2 bg-red" data-page="index">
-    <!-- https://support.matterport.com/s/article/URL-Parameters?language=de -->
+    <!-- https://support.matterport.com/s/article/URL-Parameters?language=en_US -->
     <iframe
       title=""
       width="853"
