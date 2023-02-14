@@ -25,6 +25,8 @@ const properties: Property[] = [
   },
 ]
 
+// https://my.matterport.com/show/?m=r4tiL6ozNAH
+
 export default defineEventHandler((event) => {
   const query = getQuery(event)
 
